@@ -2,6 +2,7 @@ import Banner from "./Components/Banner";
 import Navbar from "./Components/Navbar";
 import Service1 from "./Components/Service1";
 import Service2 from "./Components/Service2";
+import Service3 from "./Components/Service3";
 
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
         <Banner />
         <Service1 />
         <Service2 />
+        <Service3 />
       </div>
     </div>
   );

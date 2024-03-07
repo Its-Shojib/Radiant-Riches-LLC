@@ -5,11 +5,11 @@ import ReactStars from "react-rating-stars-component";
 
 const Service1 = () => {
     return (
-        <div>
+        <div className="my-5">
             <p className="bg-orange-600 text-white p-1 text-sm w-28 rounded-r-md cursor-pointer">
                 <FaTrophy className="inline text-xl" /> Best Choice</p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-10 ">
                 <div className="relative col-span-1">
                     <p className="absolute text-gray-600 top-5 px-2 border-[1px] border-gray-500 rounded-full">1</p>
                     <img src={img} alt="" className="w-8/12 mx-auto mt-5 cursor-pointer" />
