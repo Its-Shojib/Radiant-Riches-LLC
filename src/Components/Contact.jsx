@@ -1,5 +1,4 @@
 
-
 const Contact = () => {
     return (
         <div className="my-10 flex flex-col lg:flex-row justify-around items-center gap-10">
