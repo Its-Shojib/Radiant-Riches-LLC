@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner";
+import Contact from "./Components/Contact";
 import Navbar from "./Components/Navbar";
 import Related_Deals from "./Components/Related_Deals";
 import Service1 from "./Components/Service1";
@@ -18,6 +19,7 @@ const App = () => {
         <Service3 />
         <Service4 />
         <Related_Deals />
+        <Contact />
       </div>
     </div>
   );
