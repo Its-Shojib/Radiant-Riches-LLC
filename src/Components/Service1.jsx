@@ -12,8 +12,8 @@ const Service1 = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-10 ">
                 <div className="relative col-span-1">
                     <p className="absolute text-gray-600 top-5 px-2 border-[1px] border-gray-500 rounded-full">1</p>
-                    <img src={img} alt="" className="w-8/12 mx-auto mt-5 cursor-pointer" />
-                    <p className="absolute text-gray-600 bottom-7 left-20">Builder 1</p>
+                    <img src={img} alt="" className="w-8/12 mx-auto cursor-pointer pt-10" />
+                    <p className="absolute text-gray-600 bottom-5 left-20">Builder 1</p>
                 </div>
                 <div className="text-[12px] text-gray-600 space-y-3 col-span-2">
                     <p><span className="font-bold">WixPro 72-Inch Responsive Website Builder-</span> Comprehensive Digital Platform Creation Tool, Streamlined Design Interface for Professional Websites and Online Stores (Black/Blue)</p>

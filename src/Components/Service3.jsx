@@ -4,7 +4,7 @@ import ReactStars from "react-rating-stars-component";
 
 const Service3 = () => {
     return (
-        <div className='my-5'>
+        <div className='my-8'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-10 ">
                 <div className="relative col-span-1">
                     <p className="absolute text-gray-600 top-5 px-2 border-[1px] border-gray-500 rounded-full">3</p>
