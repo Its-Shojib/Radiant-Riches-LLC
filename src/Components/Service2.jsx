@@ -35,7 +35,7 @@ const Service2 = () => {
                             />
                         </p>
                     </div>
-                    <button className="w-full bg-blue-500 rounded-md py-2">View</button>
+                    <button className="w-full bg-blue-500 rounded-md py-2 text-white">View</button>
                 </div>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner";
 import Navbar from "./Components/Navbar";
+import Related_Deals from "./Components/Related_Deals";
 import Service1 from "./Components/Service1";
 import Service2 from "./Components/Service2";
 import Service3 from "./Components/Service3";
@@ -16,6 +17,7 @@ const App = () => {
         <Service2 />
         <Service3 />
         <Service4 />
+        <Related_Deals />
       </div>
     </div>
   );
