@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner";
 import Navbar from "./Components/Navbar";
+import Service1 from "./Components/Service1";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <div className="w-full md:w-9/12 mx-auto py-5">
         <Banner />
+        <Service1 />
       </div>
     </div>
   );
