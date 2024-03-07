@@ -28,12 +28,12 @@ const Banner = () => {
             <hr />
             <div className="my-3 space-y-5 font-semibold text-gray-600">
                 <ul className="flex justify-start items-center gap-12 flex-wrap font-semibold ">
-                    <li>Tools</li>
-                    <li>AWS Builder</li>
-                    <li>Start Build</li>
-                    <li>Build Supplies</li>
-                    <li>Tooling</li>
-                    <li>BlueHosting</li>
+                    <li className="cursor-pointer">Tools</li>
+                    <li className="cursor-pointer">AWS Builder</li>
+                    <li className="cursor-pointer">Start Build</li>
+                    <li className="cursor-pointer">Build Supplies</li>
+                    <li className="cursor-pointer">Tooling</li>
+                    <li className="cursor-pointer">BlueHosting</li>
                 </ul>
                 <p>{`Home > Hosting for all > Hosting > Hosting6 > Hosting5`}</p>
             </div>
