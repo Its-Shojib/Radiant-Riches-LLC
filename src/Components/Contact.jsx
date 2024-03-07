@@ -2,8 +2,8 @@
 
 const Contact = () => {
     return (
-        <div className="my-10 flex justify-around items-center gap-20">
-            <h1 className="text-3xl max-w-96 pl-10">Sign up and get exclusive special deals</h1>
+        <div className="my-10 flex flex-col lg:flex-row justify-around items-center gap-10">
+            <h1 className="text-3xl max-w-96">Sign up and get exclusive special deals</h1>
             <div>
                 <form>
                     <input 

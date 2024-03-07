@@ -4,7 +4,7 @@ import { CiCirclePlus } from "react-icons/ci";
 const Banner = () => {
     return (
         <div className="">
-            <h1 className="text-5xl">Best Website builders in the US</h1>
+            <h1 className="text-3xl md:text-5xl">Best Website builders in the US</h1>
             <hr className="bg-black mt-2" />
             <div className="flex justify-between items-center text-sm">
                 <div className="flex justify-start items-center gap-5">
@@ -27,7 +27,7 @@ const Banner = () => {
             </div>
             <hr />
             <div className="my-3 space-y-5 font-semibold text-gray-600">
-                <ul className="flex justify-start items-center gap-12 flex-wrap font-semibold ">
+                <ul className="flex justify-start items-center gap-5 md:gap-12 flex-wrap font-semibold ">
                     <li className="cursor-pointer">Tools</li>
                     <li className="cursor-pointer">AWS Builder</li>
                     <li className="cursor-pointer">Start Build</li>

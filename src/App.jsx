@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className="max-w-screen-xl mx-auto min-h-screen bg-white">
       <Navbar />
-      <div className="w-full md:w-9/12 mx-auto py-5">
+      <div className="w-full md:w-9/12 mx-auto py-5 px-4">
         <Banner />
         <Service1 />
         <Service2 />

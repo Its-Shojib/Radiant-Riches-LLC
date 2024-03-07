@@ -5,7 +5,7 @@ import ReactStars from "react-rating-stars-component";
 
 const Service2 = () => {
     return (
-        <div className="my-8">
+        <div className="my-10">
             <p className="bg-orange-600 text-white p-1 text-sm w-28 rounded-r-md cursor-pointer">
                 <IoDiamondOutline className="inline text-xl" /> Best Value</p>
 
@@ -13,7 +13,7 @@ const Service2 = () => {
                 <div className="relative col-span-1">
                     <p className="absolute text-gray-600 top-5 px-2 border-[1px] border-gray-500 rounded-full">2</p>
                     <img src={img} alt="" className="w-8/12 mx-auto pt-10 cursor-pointer" />
-                    <p className="absolute text-gray-600 bottom-1 left-20">Builder</p>
+                    <p className="absolute text-gray-600 lg:bottom-1 left-36 md:left-28 lg:left-20">Builder</p>
                 </div>
                 <div className="text-[12px] text-gray-600 space-y-3 col-span-2">
                     <p><span className="font-bold">SiteCraft 68-Inch Ultimate Web Design Studio-</span> Advanced Site Creation Toolkit, Intuitive Drag-and-Drop Editor for Dynamic Websites and E-commerce Platforms (Green/White)</p>
@@ -23,7 +23,7 @@ const Service2 = () => {
 
                     <p className="text-blue-700 text-sm cursor-pointer">See More <FaAngleDown className="inline font-bold" /></p>
                 </div>
-                <div className="flex justify-between items-center flex-col col-span-1">
+                <div className="flex justify-between items-center flex-col col-span-1 gap-5">
                     <div className="bg-cyan-50 p-2 rounded-b-md text-blue-800 text-center">
                         <p className="text-2xl text-center">9.5</p>
                         <p className="text-sm">Excellent</p>

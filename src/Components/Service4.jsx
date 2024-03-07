@@ -5,12 +5,12 @@ import { TiTick } from "react-icons/ti";
 
 const Service4 = () => {
     return (
-        <div className='my-8'>
+        <div className='mt-10 mb-20'>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-center gap-10 ">
                 <div className="relative col-span-1">
                     <p className="absolute text-gray-600 top-5 px-2 border-[1px] border-gray-500 rounded-full">4</p>
                     <img src={img} alt="" className="w-8/12 mx-auto pt-10 cursor-pointer" />
-                    <p className="absolute text-gray-600 top-36 left-[90px]">CDK</p>
+                    <p className="absolute text-gray-600 left-40 md:left-28 lg:left-20">CDK</p>
                 </div>
                 <div className="text-[12px] text-gray-600 space-y-3 col-span-2">
                     <p><span className="font-bold">CDK Resposive Builder: </span>An extensive library of widgets and apps, and detailed step-by-step guides</p>
@@ -37,7 +37,7 @@ const Service4 = () => {
 
                     <p className="text-blue-700 text-sm cursor-pointer">See More <FaAngleDown className="inline font-bold" /></p>
                 </div>
-                <div className="flex justify-between items-center flex-col col-span-1">
+                <div className="flex justify-between items-center flex-col col-span-1 gap-5">
                     <div className="bg-cyan-50 p-2 rounded-b-md text-blue-800 text-center">
                         <p className="text-2xl text-center">9.1</p>
                         <p className="text-sm">Very Good</p>
