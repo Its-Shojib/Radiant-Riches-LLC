@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 import Related_Deals from "./Components/Related_Deals";
 import Service1 from "./Components/Service1";
@@ -21,6 +22,7 @@ const App = () => {
         <Related_Deals />
         <Contact />
       </div>
+      <Footer />
     </div>
   );
 };
